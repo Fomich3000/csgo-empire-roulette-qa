@@ -6,6 +6,9 @@ describe('Roulette', () => {
       cy.log('Verifying wheel is displayed');
       cy.get('.wheel');
 
+      cy.log('Veryfing chat is opened by default');
+      cy.get('.chat--open');
+
       const placeBid = () => {
         cy.log('Verifying bet amount can be set via input control');
         cy.get('.bet-input__controls').contains('button', '0.01').click();
@@ -28,6 +31,7 @@ describe('Roulette', () => {
         });
       };
       attemptBid();
+      cy.get('.modal__wrapper').contains('Sign in');
     });
   });
 });

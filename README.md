@@ -41,6 +41,7 @@ Approach: I will start from smoke to regression (and from positive to negative t
 1) Login, deposit.
 2) Input the valid bet amount (< than your deposit) using pre-defined controls.
 3) Place a bet for any T/CT/Bonus, verifying the ‘Place bet’ panel is enabled only before rolling.
+
 *Expected result*:
 - Placing a bet is only enabled during pre-rolling (15 sec).
 - Placing a bet increments the total for the corresponding table.
@@ -48,6 +49,7 @@ Approach: I will start from smoke to regression (and from positive to negative t
 - Placing a bet decrements your deposit.
 - Placing a bet sends the valid WebSocket message with all the necessary info about the bet/bidder.
 4) Wait for the bet result.
+
 *Expected result*:
 - For win: deposit is incremented x2 or x14, depending on the bet; the sound of the cashier is played.
 - For loss: deposit is decremented for the lost bet value.
@@ -55,21 +57,22 @@ Approach: I will start from smoke to regression (and from positive to negative t
 - The corresponding counter is incremented in the Last 100 section.
 
 ### 2. Regression*
-2.0. More thorough testing of the RNG algorithm on both small and large 
-2.1. Placing a winning bet on x2 (T/CT).
-2.2. Placing a winning bet on x2 (T/CT).
-2.3. Placing a winning bet on x14 (Bonus).
-2.4. The winning user is displayed in the Daily Roulette Race table.
-2.5. The Daily Roulette Race table updates.
+
+2.0. More thorough testing of the RNG algorithm on both small and large  
+2.1. Placing a winning bet on x2 (T/CT)  
+2.2. Placing a winning bet on x2 (T/CT)  
+2.3. Placing a winning bet on x14 (Bonus)  
+2.4. The winning user is displayed in the Daily Roulette Race table  
+2.5. The Daily Roulette Race table updates  
 2.6. Input the bet amount:
 - via each of the bet input controls – "+", "x", "/", "MAX", "Clear".
 - manually typing common bet amounts – ranges like 3-5, 10-30, 100-300.
 - boundary values: 100 000; 100 001; 99 999; 9999999999.
-2.7. Trying to bet over the limit with manual inputs + controls.
+2.7. Trying to bet over the limit with manual inputs + controls  
 2.8. Test with a disabled internet connection:
   - during the betting process.
   - after placing a bet.
-2.9. Exploring other edge cases like last-second bets.
+2.9. Exploring other edge cases like last-second bets  
 
 * I would also test the roulette's responsiveness and adaptiveness for different screen sizes and devices.
 
