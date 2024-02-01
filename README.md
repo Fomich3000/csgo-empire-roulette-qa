@@ -68,7 +68,7 @@ Approach: I will start from smoke to regression (and from positive to negative t
 - via each of the bet input controls – "+", "x", "/", "MAX", "Clear".
 - manually typing common bet amounts – ranges like 3-5, 10-30, 100-300.
 - boundary values: 100 000; 100 001; 99 999; 9999999999.
-2.7. Trying to bet over the limit with manual inputs + controls  
+2.7. Trying to bet over the limit with manual inputs + controls
 2.8. Test with a disabled internet connection:
   - during the betting process.
   - after placing a bet.
