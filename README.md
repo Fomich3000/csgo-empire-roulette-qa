@@ -64,14 +64,14 @@ Approach: I will start from smoke to regression (and from positive to negative t
 2.3. Placing a winning bet on x14 (Bonus)  
 2.4. The winning user is displayed in the Daily Roulette Race table  
 2.5. The Daily Roulette Race table updates  
-2.6. Input the bet amount:
+2.6. Input the bet amount:  
 - via each of the bet input controls – "+", "x", "/", "MAX", "Clear".
 - manually typing common bet amounts – ranges like 3-5, 10-30, 100-300.
-- boundary values: 100 000; 100 001; 99 999; 9999999999.
-2.7. Trying to bet over the limit with manual inputs + controls
-2.8. Test with a disabled internet connection:
-  - during the betting process.
-  - after placing a bet.
+- boundary values: 100 000; 100 001; 99 999; 9999999999.  
+2.7. Trying to bet over the limit with manual inputs + controls  
+2.8. Test with a disabled internet connection:  
+- during the betting process.
+- after placing a bet.  
 2.9. Exploring other edge cases like last-second bets  
 
 * I would also test the roulette's responsiveness and adaptiveness for different screen sizes and devices.
