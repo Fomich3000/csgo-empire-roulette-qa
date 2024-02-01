@@ -35,7 +35,7 @@ Approach: I will start from smoke to regression (and from positive to negative t
 - Navbar
 - Footer.
   
-- **1.2. Betting Flow/*:**
+**1.2. Betting Flow/*:**
 *This scenario is e2e and verifies multiple things, it will also be executed with just 1 active user for the speed and the ease of verification.
 
 1) Login, deposit.
