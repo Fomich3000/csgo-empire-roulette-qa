@@ -35,7 +35,7 @@ Approach: I will start from smoke to regression (and from positive to negative t
 - Navbar
 - Footer.
   
-**1.2. Betting Flow/*:**
+**1.2. Betting Flow*:**  
 *This scenario is e2e and verifies multiple things, it will also be executed with just 1 active user for the speed and the ease of verification.
 
 1) Login, deposit.
@@ -78,11 +78,11 @@ Approach: I will start from smoke to regression (and from positive to negative t
 
 * I would also test the roulette's responsiveness and adaptiveness for different screen sizes and devices.
 
-### Stability and Performance
+### 3. Stability and Performance
 - Assessing performance with a normal number of users, around 100.
 - Evaluating the system under high load, with user numbers like 10,000.
 
-### Securtiy
+### 4. Securtiy
 Security checks for potential vulnerabilities (injections at the frontend/API level).
 
 ### Automated scenario
